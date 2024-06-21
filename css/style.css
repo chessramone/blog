@@ -1,0 +1,27 @@
+body{
+    background-color: #212121;
+    color: #ffffff;
+}
+
+nav {
+    margin-bottom: 80px;
+    border-bottom: 1px solid #ffffff;
+    p {
+	color: #00ffff;
+	font-weight: bold;
+    }
+}
+
+main {
+    margin: 0 auto;
+    width: 88ch;
+    div {
+	margin-bottom: 80px;
+	hr { margin-top: -20px; }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #00ff00;
+}
