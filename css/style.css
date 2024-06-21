@@ -1,6 +1,31 @@
+@font-face {
+    font-family: IBM;
+    src: url('../font/IBMPlexMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: IBM;
+    src: url('../font/IBMPlexMono-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: IBM;
+    src: url('../font/IBMPlexMono-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #00ff00;
+}
+
 body{
     background-color: #212121;
     color: #ffffff;
+    font-family: IBM;
 }
 
 nav {
@@ -8,20 +33,35 @@ nav {
     border-bottom: 1px solid #ffffff;
     p {
 	color: #00ffff;
-	font-weight: bold;
+	font-weight: 700;
     }
 }
 
 main {
-    margin: 0 auto;
-    width: 88ch;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 160px;
+    hr { margin-top: -20px; }
+    section:first-of-type{
+	max-width: 824px;
+    }
+    section:nth-of-type(2){
+	width: 398px;
+    }
     div {
 	margin-bottom: 80px;
-	hr { margin-top: -20px; }
+    }
+    h1 { font-weight: 700; }
+    h2 { font-weight: 300; }
+    p {
+	margin-bottom: 60px;
+	font-weight: 300;
     }
 }
 
-a {
-    text-decoration: none;
-    color: #00ff00;
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
 }
