@@ -1,0 +1,8 @@
+nav {
+    margin-bottom: 80px;
+    border-bottom: 1px solid #ffffff;
+    p {
+	color: #00ffff;
+	font-weight: 700;
+    }
+}

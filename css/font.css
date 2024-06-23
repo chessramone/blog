@@ -1,0 +1,18 @@
+@font-face {
+    font-family: IBM;
+    src: url('../font/IBMPlexMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: IBM;
+    src: url('../font/IBMPlexMono-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: IBM;
+    src: url('../font/IBMPlexMono-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
